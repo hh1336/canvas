@@ -1,14 +1,5 @@
 <script setup lang="ts">
-import type { Collections } from '@nuxt/content'
 
-const { locale } = useI18n()
-
-const { data: projects } = await useAsyncData('projects', async () => {
-  const collection = ('projects_' + locale.value) as keyof Collections
-  return await queryCollection(collection).all() as Collections['projects_en'][] | Collections['projects_fr'][]
-}, {
-  watch: [locale],
-})
 </script>
 
 <template>
@@ -26,12 +17,5 @@ const { data: projects } = await useAsyncData('projects', async () => {
       />
     </h2>
     <Divider class="mb-8 mt-2" />
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-      <ProjectCard
-        v-for="project in projects"
-        :key="project.name"
-        :project
-      />
-    </div>
   </section>
 </template>

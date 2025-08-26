@@ -31,8 +31,8 @@ export default defineNuxtConfig({
   },
 
   colorMode: {
-    preference: 'dark',
-    fallback: 'dark',
+    preference: 'light',
+    fallback: 'light',
   },
 
   content: {
@@ -49,10 +49,13 @@ export default defineNuxtConfig({
     highlight: {
       theme: {
         dark: 'github-dark',
-        default: 'github-dark',
         light: 'github-light',
+        default: 'github-light',
       },
     },
+  },
+  ui: {
+    colorMode: false,
   },
 
   runtimeConfig: {

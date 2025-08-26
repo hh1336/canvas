@@ -48,7 +48,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
     { name: 'charset', content: 'utf-8' },
     { name: 'robots', content: 'index, follow' },
-    { name: 'color-scheme', content: 'light dark' },
+    { name: 'color-scheme', content: 'light' },
   ],
   link,
 })

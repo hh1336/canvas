@@ -3,6 +3,8 @@ export default defineAppConfig({
     meetingLink: 'https://cal.com/hugorcd/15min',
     available: true,
   },
+  appName: 'TTPay.io',
+  domain: 'https://ttpay.io',
   profile: {
     name: 'Hugo Richard',
     job: 'Frontend Architect and Designer',

@@ -1,9 +1,14 @@
 <template>
   <div>
-    <SettingsLanguageToggle class="fixed right-1 z-50 top-1" />
-    <LayoutNavbar class="fixed bottom-0 z-50 flex sm:bottom-auto sm:top-0" />
-    <div class="sm:mt-[50px]">
-      <slot />
+    <LayoutHeader />
+    <div class="mt-20 flex lg:justify-between justify-center text-black max-w-7xl md:mx-auto">
+      <div class="hidden lg:inline-block flex-1 text-center">
+        <SettingsLanguageSelect />
+        <SettingsNavigationTree />
+      </div>
+      <div class="h-full">
+        <slot />
+      </div>
     </div>
     <LayoutFooter />
   </div>

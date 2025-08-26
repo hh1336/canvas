@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const stack = await queryCollection('stack').first()
 </script>
 
 <template>
@@ -53,28 +52,6 @@ const stack = await queryCollection('stack').first()
             mdc-unwrap="p"
           />
         </p>
-      </div>
-      <div class="flex flex-wrap gap-4">
-        <SpotlightCard
-          v-for="item in stack!.items"
-          :key="item.name"
-          white
-        >
-          <NuxtLink
-            :to="item.link"
-            target="_blank"
-            :aria-label="item.name + ' link'"
-            class="flex gap-2 p-6"
-          >
-            <UIcon
-              :name="item.icon"
-              class="size-9"
-              :font-controlled="false"
-              :alt="item.name + ' logo'"
-              :aria-label="item.name + ' logo'"
-            />
-          </NuxtLink>
-        </SpotlightCard>
       </div>
     </div>
   </section>

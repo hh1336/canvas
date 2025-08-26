@@ -1,42 +1,23 @@
-type Where = 'home' | 'app'
+import type { ContentNavigationItem } from '@nuxt/content'
+import type { NavigationMenuItem } from '@nuxt/ui'
 
-export type Navigation = {
-  name: string
-  to: string
-  icon: string
-}
-
-export function getNavigation(where: Where): Record<string, Navigation> | [] {
-  switch (where) {
-    case 'home':
-      return {
-        home: {
-          name: 'Home',
-          to: '/',
-          icon: 'lucide:home',
-        },
-        works: {
-          name: 'Works',
-          to: '/works',
-          icon: 'lucide:briefcase',
-        },
-        writing: {
-          name: 'Writing',
-          to: '/writing',
-          icon: 'lucide:library',
-        },
-        about: {
-          name: 'About',
-          to: '/about',
-          icon: 'lucide:user',
-        },
-        contact: {
-          name: 'Contact',
-          to: '/contact',
-          icon: 'lucide:mail',
-        },
-      }
-    default:
-      return []
-  }
+export function getNavigation<T extends NavigationMenuItem & { path?: string }>(
+  currentPath: string,
+  navigationArray?: ContentNavigationItem[],
+): T[] | undefined {
+  if (!navigationArray) return undefined
+  return navigationArray.map((c) => {
+    const temp = {
+      label: c.title,
+      to: c.children ? undefined : c.path,
+      value: c.path,
+      active: c.path === currentPath,
+      open: true,
+    } as Partial<T>
+    if (c.children) {
+      const children = getNavigation(currentPath, c.children)
+      if (children) temp.children = children
+    }
+    return temp as T
+  })
 }

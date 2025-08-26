@@ -1,0 +1,84 @@
+{
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "vue", "typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "dotenv.enableAutocloaking": false,
+  "i18n-ally.localesPaths": ["i18n","i18n/locales"],
+  "i18n-ally.dirStructure": "auto",
+  "i18n-ally.extract.keygenStrategy": "random",
+  "i18n-ally.editor.preferEditor": false,
+  "i18n-ally.keystyle": "flat",
+  "i18n-ally.displayLanguage": "zh",
+  "i18n-ally.includeSubfolders": false,
+  "i18n-ally.autoDetection": false,
+  "i18n-ally.annotationMaxLength": 20,
+  "i18n-ally.extract.keyMaxLength": 0,
+  "i18n-ally.extract.targetPickingStrategy": "none",
+  "i18n-ally.extract.parsers.html": {
+    "attributes": ["text", "title", "alt", "placeholder", "label", "aria-label"],
+    "ignoredTags": ["script", "style"],
+    "vBind": true,
+    "inlineText": true
+  },
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "postcss", "scss", "vue", "sass", "html"],
+  "maptz.regionfolder": {
+    "showRegionsInOutline": true,
+    "[vue]": {
+      "foldDefinitions": [
+        {
+          "foldStartRegex": "^[\\s]*<!--[\\s]*#B[\\s]*(.*)[\\s]*-->[\\s]*$",
+          "foldEndRegex": "<!--[\\s]*#E",
+          "isFoldedByDefault": true
+        },
+        {
+          "foldStartRegex": "^[\\s]*/\\*[\\s]*#B[\\s]*(.*)[\\s]*\\*/[\\s]*$",
+          "foldEndRegex": "/\\*[\\s]*#E",
+          "isFoldedByDefault": true
+        }
+      ]
+    },
+    "[typescript, scss]": {
+      "foldStart": "/* #B [NAME] */",
+      "foldStartRegex": "^[\\s]*/\\*[\\s]*#B[\\s]*(.*)[\\s]*\\*/[\\s]*$",
+      "foldEnd": "/* #E */",
+      "foldEndRegex": "/\\*[\\s]*#E",
+      "isFoldedByDefault": true
+    }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/king.ddhi.cn": true,
+    "**/kingtest.ddhi.cn": true,
+    ".output": true,
+    "node_modules": true
+  },
+  "commentTranslate.multiLineMerge": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .npmrc, .gitignore, tsconfig.json, nuxt.config.ts, ts-codegen.config.json, .eslintrc.cjs, .prettierrc, commitlint.config.cjs, postcss.config.cjs, stylelint.config.cjs, uno.config.ts, *.sh,.gitattributes,renovate.json,eslint.config.mjs,content.config.ts,nuxt.schema.ts,.editorconfig,.env.example,LICENSE",
+    "Dockerfile":"docker-compose.community.yml,docker-compose.local.yml,.dockerignore"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "hide-files.files": []
+}
