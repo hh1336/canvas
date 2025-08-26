@@ -12,10 +12,16 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr" hreflang="fr-FR" />
         <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://avatars.githubusercontent.com/u/71938701?v=4</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://vercel.com/button</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -24,7 +30,13 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/about" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr/about" hreflang="fr-FR" />
         <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://avatars.githubusercontent.com/u/71938701?v=4</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -32,6 +44,12 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/contact" hreflang="x-default" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/contact" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr/contact" hreflang="fr-FR" />
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://canvas.hrcd.fr/en/works</loc>
@@ -39,25 +57,10 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/works" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr/works" hreflang="fr-FR" />
         <image:image>
-            <image:loc>https://canvas.hrcd.fr/_ipx/_/projects/canvas.webp</image:loc>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://canvas.hrcd.fr/_ipx/_/projects/helpr.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://canvas.hrcd.fr/_ipx/_/projects/hr-folio.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://canvas.hrcd.fr/_ipx/_/projects/maison-hochard.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://canvas.hrcd.fr/_ipx/_/projects/mockline.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://canvas.hrcd.fr/_ipx/_/projects/nuxtlog.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://canvas.hrcd.fr/_ipx/_/projects/shelve.webp</image:loc>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -65,6 +68,9 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/writing" hreflang="x-default" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/writing" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr/writing" hreflang="fr-FR" />
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
         <image:image>
             <image:loc>https://canvas.hrcd.fr/articles/5-raycast-snippets.jpg</image:loc>
         </image:image>
@@ -74,6 +80,9 @@
         <image:image>
             <image:loc>https://canvas.hrcd.fr/articles/trap-of-perfection.jpg</image:loc>
         </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://canvas.hrcd.fr/en/articles/5-amazing-raycast-nuxt-snippets</loc>
@@ -81,10 +90,16 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/articles/5-amazing-raycast-nuxt-snippets" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr/articles/5-amazing-raycast-nuxt-snippets" hreflang="fr-FR" />
         <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://canvas.hrcd.fr/_ipx/_/articles/5-raycast-snippets.jpg</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://canvas.hrcd.fr/_ipx/_/articles/snippets-exemple.gif</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -93,7 +108,13 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/articles/launch-your-portfolio" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr/articles/launch-your-portfolio" hreflang="fr-FR" />
         <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://canvas.hrcd.fr/_ipx/_/articles/launch-your-porfolio.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -102,8 +123,25 @@
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/articles/not-an-impostor" hreflang="en-US" />
         <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/fr/articles/not-an-impostor" hreflang="fr-FR" />
         <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://canvas.hrcd.fr/_ipx/_/articles/trap-of-perfection.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://canvas.hrcd.fr/en/articles/test/post1</loc>
+        <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/articles/test/post1" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://canvas.hrcd.fr/en/articles/test/post1" hreflang="en-US" />
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/logo.8jQfsi_P.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://canvas.hrcd.fr/_nuxt/footer-bg-border.C7Lcpf-o.png</image:loc>
         </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.2 at 2025-08-04T06:13:05.631Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.2 at 2025-08-26T07:24:04.112Z -->
